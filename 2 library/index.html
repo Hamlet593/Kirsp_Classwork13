@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Library</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Library</h1>
+      <div class="searchWrapper">
+        <input type="text" id="searchInput" placeholder="Type the book name" />
+        <button type="button" class="btn searchBtn">Search</button>
+      </div>
+      <h4>Total count of search result <span id="numFound"></span></h4>
+    </header>
+    <main>
+      <table id="table">
+        <thead>
+          <tr>
+            <th><h4>Title</h4></th>
+            <th><h4>Author Name</h4></th>
+            <th><h4>First publish year</h4></th>
+            <th><h4>Subject</h4></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </main>
+    <footer>
+      <p>Copyright&copy; 2020 Naira Yeghiazaryan</p>
+    </footer>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
